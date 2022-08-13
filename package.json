@@ -1,0 +1,36 @@
+{
+  "name": "canitmux",
+  "version": "1.0.0",
+  "description": "A website for determining which laptop models support MUX capabilities for their dedicated graphics hardware.",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyIacono/canitmux.git"
+  },
+  "keywords": [
+    "laptop",
+    "mux",
+    "switch",
+    "nvidia",
+    "optimus"
+  ],
+  "author": "https://github.com/AnthonyIacono/canitmux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnthonyIacono/canitmux/issues"
+  },
+  "homepage": "https://github.com/AnthonyIacono/canitmux#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "parcel": "latest",
+    "process": "^0.11.10"
+  }
+}
