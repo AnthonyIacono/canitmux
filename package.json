@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnthonyIacono/canitmux.git"
+    "url": "git+https://github.com/canitmux/canitmux.git"
   },
   "keywords": [
     "laptop",
@@ -17,12 +17,12 @@
     "nvidia",
     "optimus"
   ],
-  "author": "https://github.com/AnthonyIacono/canitmux",
+  "author": "https://github.com/canitmux/canitmux",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AnthonyIacono/canitmux/issues"
+    "url": "https://github.com/canitmux/canitmux/issues"
   },
-  "homepage": "https://github.com/AnthonyIacono/canitmux#readme",
+  "homepage": "https://github.com/canitmux/canitmux#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
