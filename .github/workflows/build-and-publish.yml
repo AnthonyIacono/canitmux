@@ -42,6 +42,9 @@ jobs:
         run: echo 'www.canitmux.com' > docs/CNAME
       - name: Copy Distribution Folder to Docs
         run: cp -R repo/dist/* gh-pages/docs/
+      - name: Create Version Text File
+        working-directory: gh-pages
+        run: echo "$GITHUB_SHA" > docs/version.txt
       - name: Stage Pages
         working-directory: gh-pages/docs
         run: git add -A
