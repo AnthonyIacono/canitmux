@@ -1,6 +1,6 @@
 enum SwitchableGraphicsTechnology {
-    None,
-    NvidiaOptimus,
-    NvidiaAdvancedOptimus,
-    AmdSwitchableGraphics
+  None,
+  NvidiaOptimus,
+  NvidiaAdvancedOptimus,
+  AmdSwitchableGraphics
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const App = () => {
-    return (
+  return (
         <h1>canitmux is coming soon!</h1>
-    );
-};
+  )
+}

@@ -1,5 +1,5 @@
 enum MuxStatus {
-    No,
-    Yes,
-    Partial
+  No,
+  Yes,
+  Partial
 }

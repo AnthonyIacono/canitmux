@@ -1,5 +1,5 @@
 interface GpuInformation {
-    name: string;
-    isDedicated: boolean;
-    switchableGraphicsTechnology: SwitchableGraphicsTechnology;
+  name: string
+  isDedicated: boolean
+  switchableGraphicsTechnology: SwitchableGraphicsTechnology
 }
