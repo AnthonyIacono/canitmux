@@ -28,3 +28,6 @@ jobs:
       - name: Build Site
         working-directory: repo
         run: npm run build
+      - name: Build DB
+        working-directory: repo
+        run: npm run build:db -- "$GITHUB_SHA"
