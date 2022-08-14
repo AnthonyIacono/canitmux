@@ -1,4 +1,6 @@
-const LaptopDatabase: LaptopInformation[] = [
+import { LaptopInformation, MuxStatus, SwitchableGraphicsTechnology } from './LaptopInformation';
+
+const LAPTOP_DATA: LaptopInformation[] = [
   {
     manufacturer: 'Acer',
     modelNumber: 'Helios 300 (2021)',
@@ -21,4 +23,8 @@ const LaptopDatabase: LaptopInformation[] = [
     muxStatus: MuxStatus.No,
     notes: ''
   }
-]
+];
+
+export const allLaptops: () => LaptopInformation[] = () => {
+  return LAPTOP_DATA;
+};
