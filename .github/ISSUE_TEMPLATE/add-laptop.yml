@@ -1,0 +1,55 @@
+name: Add Laptop
+description: Add a laptop to the canitmux website
+title: "[Add Laptop]: "
+labels: ["add-laptop"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to add a laptop to canitmux!
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      description: Who is the manufacturer of the laptop that you would like to add?
+      placeholder: ex. Alienware
+    validations:
+      required: true
+  - type: input
+    id: model-number
+    attributes:
+      label: Model Number
+      description: What is the model number of the laptop that you would like to add?
+      placeholder: ex. m17 R5
+    validations:
+      required: true
+  - type: textarea
+    id: cpus
+    attributes:
+      label: CPU(s)
+      description: What CPU(s) can the laptop model be configured with?
+      placeholder: ex. AMD Ryzen 7 6800H, AMD Ryzen 9 6900HX
+    validations:
+      required: false
+  - type: textarea
+    id: gpu(s)
+    attributes:
+      label: GPU(s)
+      description: What GPU(s) can the laptop model be configured with? Also, if possible, include which type of graphics switching technology that the laptop includes.
+      placeholder: ex. NVIDIA GeForce RTX 3050 Ti, NVIDIA GeForce RTX 3060, AMD Radeon RX 6850M XT, AMD Radeon RX 6700M, NVIDIA GeForce RTX 3070 Ti, NVIDIA GeForce RTX 3080 Ti (NVIDIA Optimus and AMD Switchable Graphics)
+    validations:
+      required: false
+  - type: dropdown
+    id: has-mux-switch
+    attributes:
+      label: Does the laptop have a MUX switch?
+      multiple: false
+      options:
+        - No
+        - Yes
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Please include any other notes that may be helpful to display on the website.
+      placeholder: ex. You can change the MUX switch setting using the BIOS.
