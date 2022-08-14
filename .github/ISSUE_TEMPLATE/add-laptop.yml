@@ -32,7 +32,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: gpu(s)
+    id: gpus
     attributes:
       label: GPU(s)
       description: What GPU(s) can the laptop model be configured with? Also, if possible, include which type of graphics switching technology that the laptop includes.
@@ -45,8 +45,8 @@ body:
       label: Does the laptop have a MUX switch?
       multiple: false
       options:
-        - No
-        - Yes
+        - 'No'
+        - 'Yes'
   - type: textarea
     id: notes
     attributes:
