@@ -1,0 +1,1 @@
+{"laptops":[{"manufacturer":"Acer","modelNumber":"Helios 300 (2021)","cpus":["Intel i7-10750H","Intel i7-11800H"],"gpus":[{"name":"NVIDIA RTX 2070","switchableGraphicsTechnology":2,"isDedicated":true},{"name":"NVIDIA RTX 3070","switchableGraphicsTechnology":2,"isDedicated":true}],"muxStatus":"No","notes":""}],"version":"192281196c800d4ec2e2008b80e155f043e1615a"}
